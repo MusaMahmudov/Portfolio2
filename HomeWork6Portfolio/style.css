@@ -1,0 +1,134 @@
+body {
+  background: rgb(42, 191, 196);
+  background: linear-gradient(90deg, rgb(42, 191, 196) 29%, rgb(253, 29, 245) 54%, rgb(252, 176, 69) 75%);
+}
+
+.main {
+  background: white;
+  transform: translateX(30%);
+  margin-top: 2%;
+  width: 60%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.main .top {
+  display: flex;
+  justify-content: space-between;
+}
+.main .top .left-top {
+  padding: 8px 20px 10px 0px;
+  transform: translateX(20px);
+  width: 20%;
+  display: flex;
+}
+.main .top .left-top i {
+  transform: translateY(10%);
+  width: 10%;
+  font-size: 1.8em;
+}
+.main .top .left-top h1 {
+  font-size: 1.1em;
+  margin-left: 0.5em;
+}
+.main .top .right-top {
+  display: flex;
+  margin-right: 10px;
+}
+.main .top .right-top button {
+  margin-top: 5%;
+  height: 40%;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+  transition: transform 0.5s ease;
+}
+.main .top .right-top button:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.main .top .right-top .right-info {
+  text-decoration: none;
+  margin: 5% 10px 0px 0px;
+  height: 30%;
+  color: black;
+  padding: 3px;
+  font-size: 1.2em;
+  transition: all 0.5s ease;
+}
+.main .top .right-top .right-info:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: black;
+  color: white;
+  border-radius: 5px;
+}
+.main .mid {
+  padding: 90px;
+  display: flex;
+  height: 40%;
+}
+.main .mid .left-mid {
+  width: 50%;
+}
+.main .mid .left-mid img {
+  height: 100%;
+  width: 70%;
+  padding: 0.8em;
+  transform: translateX(4em);
+}
+.main .mid .right-mid {
+  width: 50%;
+}
+.main .mid .right-mid h2 {
+  transform: translateY(0.7em);
+  font-size: 2.5em;
+  margin-bottom: 0.1em;
+}
+.main .mid .right-mid .right-mid-P {
+  margin-top: 0.2em;
+  transform: translateY(1.8em);
+}
+.main .bottom {
+  display: flex;
+  height: 30%;
+  width: 80%;
+  transform: translateX(23%);
+  margin-bottom: 3.5em;
+}
+.main .bottom .left-bottom {
+  width: 50%;
+  height: 100%;
+}
+.main .bottom .left-bottom h3 {
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+}
+.main .bottom .left-bottom .left-bottom-P {
+  margin-top: 0.1em;
+  width: 90%;
+}
+.main .bottom .right-bottom {
+  width: 50%;
+  height: 100%;
+}
+.main .bottom .right-bottom ul {
+  transform: translateY(1em);
+  margin: 0.3em 0em 0.1em 0em;
+  list-style-type: none;
+  display: flex;
+}
+.main .bottom .right-bottom ul li button {
+  border-radius: 0.3em;
+  border: none;
+  margin-left: 0.5em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-size: 0.7em;
+  transition: all 0.5s ease;
+  padding: 0.6em;
+}
+.main .bottom .right-bottom ul li button:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}/*# sourceMappingURL=style.css.map */
